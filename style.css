@@ -408,6 +408,10 @@ footer {
         padding-right: 20px;
         justify-content: space-between;
     }
+
+    .footer-bottom p {
+        font-size: 10px;
+    }
 }
 
 @media only screen and (min-width:1024px){
@@ -442,9 +446,5 @@ footer {
         padding-left: 20px;
         padding-right: 20px;
         justify-content: space-between;
-    }
-
-    .footer-bottom p {
-        font-size: 10px;
     }
 }
