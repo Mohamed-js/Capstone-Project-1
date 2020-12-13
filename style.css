@@ -1,7 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
     margin-top: -20px;
+    font-size: 14px;
 }
 
 ul {
@@ -9,31 +14,34 @@ ul {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .flex {
     display: flex;
     flex-flow: row;
 }
 
-.column {
-    flex-flow: column;
-}
-
 nav {
     position: fixed;
     width: 100%;
+    z-index: 20;
 }
 
 .navbar {
     background-color: hsl(18deg 100% 50%);
     padding: 20px;
     color: whitesmoke;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .logo {
     margin-top: 4px;
-    margin-bottom: 4px;
+    margin-bottom: 14px;
+    font-size: 30px;
 }
 
 .link {
@@ -47,14 +55,16 @@ nav {
     background: url(imgs/cover3.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 100vh;
+    max-height: 700px;
+    z-index: 10;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imgs/cover3.jpg");
 }
 
 .text-search {
     position: relative;
     text-align: center;
-    top: 250px;
+    top: 180px;
 }
 
 .text-search .text {
@@ -62,12 +72,12 @@ nav {
 }
 
 .search {
-    width: 80%;
+    width: 95%;
     min-width: 250px;
     max-width: 900px;
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.5);
-    padding: 60px;
+    padding: 40px;
     border-radius: 10px;
 }
 
@@ -77,12 +87,12 @@ nav {
 }
 
 label {
-    font-size: 15px;
-    margin-left: 8px;
+    margin-left: 10px;
 }
 
 .search-input {
-    width: calc(100% - 100px);
+    width: calc(100% - 85px);
+
 }
 
 .search input {
@@ -92,6 +102,8 @@ label {
 .cover button {
     margin-top: 20px;
     padding: 8px;
+    border-radius: 10px;
+    border: none;
 }
 
 h2 {
@@ -100,10 +112,167 @@ h2 {
     color: hsl(18deg 100% 50%);
 }
 
+.steps {
+    margin-bottom: 60px;
+}
+
 .step {
     text-align: center;
     width: 100%;
     max-width: 300px;
     margin: auto;
     margin-top: 40px;
+}
+
+.tours {
+    margin: auto;
+    color: whitesmoke;
+}
+
+.tour {
+    padding: 15px;
+    height: 200px;
+    width: 100%;
+}
+
+.tour-right {
+    width: 30%;
+    text-align: end;
+}
+
+.tour-left {
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+.tour-left button {
+    padding: 8px;
+    width: 160px;
+    border-radius: 10px;
+}
+
+.tour-right img {
+    max-height: 100%;
+    max-width: 100%;
+    padding-left: 5px;
+    border-radius: 50%;
+    padding-top: 15px;
+}
+
+.tour1 {
+    background-color:hsl(18deg 100% 50%);
+}
+
+.tour1 button {
+    color: hsl(18deg 100% 50%);
+    border: hsl(18deg 100% 50%);
+}
+
+.tour2 {
+    background-color:gray;
+}
+
+.tour2 button {
+    color: gray;
+    border: gray;
+}
+
+.tour3 {
+    background-color:rgb(84, 84, 230);
+}
+
+.tour3 img {
+    border-radius: 0%;
+    padding-top: 20px;
+}
+
+.footer-top {
+    font-size: 9px;
+    padding: 0;
+    flex-flow: column;
+    padding-top: 20px;
+    background-color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.footer-top li {
+    border-top: 1px solid rgb(139, 139, 139, .2);
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top a {
+    padding: 5px;
+}
+
+.icom {
+
+}
+
+.icom i {
+    position: relative;
+    color: white;
+    font-size: 50px;
+    border: white 1px solid;
+    padding: 15px 22px;
+    border-radius: 50%;
+    left: 40%;
+}
+
+.footer-center {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 0;
+}
+
+.footer-center div {
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(139, 139, 139, .2);
+    padding-bottom: 20px;
+}
+
+.footer-center h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.footer-bottom {
+    background-color: #1f1f1f;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+}
+
+.subscribe input {
+    padding: 5px;
+    border: 1px solid rgb(139, 139, 139, .2);
+}
+
+.subscribe :first-child {
+    background-color: black;
+    border: 1px solid rgb(139, 139, 139, .2);
+}
+
+.subscribe :last-child {
+    color: whitesmoke;
+    background-color: #1f1f1f;
+    border: 1px solid rgb(139, 139, 139, .2);
+}
+
+.contact :last-child {
+    color: hsl(18deg 100% 50%);
+}
+
+.about span a {
+    color: hsl(18deg 100% 50%);
+}
+
+.footer-bottom i {
+    padding: 4px;
 }
