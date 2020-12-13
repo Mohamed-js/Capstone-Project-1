@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: -20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row;
+}
+
+.column {
+    flex-flow: column;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+}
+
+.navbar {
+    background-color: hsl(18deg 100% 50%);
+    padding: 20px;
+    color: whitesmoke;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.link {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.cover {
+    background: url(imgs/cover3.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imgs/cover3.jpg");
+}
+
+.text-search {
+    position: relative;
+    text-align: center;
+    top: 250px;
+}
+
+.text-search .text {
+    color: white;
+}
+
+.search {
+    width: 80%;
+    min-width: 250px;
+    max-width: 900px;
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.search :first-child {
+    padding-bottom: 10px;
+    text-align: start;
+}
+
+label {
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.search-input {
+    width: calc(100% - 100px);
+}
+
+.search input {
+    padding: 8px;
+}
+
+.cover button {
+    margin-top: 20px;
+    padding: 8px;
+}
+
+h2 {
+    padding: 30px;
+    text-align: center;
+    color: hsl(18deg 100% 50%);
+}
+
+.step {
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+    margin-top: 40px;
+}

@@ -10,14 +10,14 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar">
-        <ul>
+    <nav>
+        <ul class="navbar flex">
             <li class="logo">
                 <i class="fas fa-map-marker-alt"></i>
                 <span>HOUSING FUTURE</span>
             </li>
 
-            <li class="links">
+            <li class="links flex">
                 <div class="link">
                     <i class="fas fa-search"></i>
                     <span>Search</span>
@@ -39,17 +39,21 @@
     </nav>
     <!-- Cover Section -->
     <section class="cover">
-        <div class="darken"></div>
         <div class="text-search">
-            <h1 class="text">HOUSING FUTURE - Your Gateway to housing in EGYPT.</h1>
-            <form class="search">  
-                <label for="search"></label>
+            <h1 class="text">HOUSING FUTURE</h1>
+            <h2 class="text">Your Gateway to housing in EGYPT</h2>
+            <form class="search">
                 <div>
-                    <input id="search" name="search" type="text" placeholder="Search">
-                    <input id="submit" name="submit" type="submit" value="Go">
-                </div>                    
+                    <label for="search">SEARCH BY KEYWORD:</label>
+                </div>
+                <div>
+                    <input class="search-input" id="search" name="search" type="text" placeholder="Search...">
+                    <input id="submit" name="submit" type="submit" value="Search">  
+                </div>                
             </form>
-            <button>How it Works</button>
+            <div>
+                <button>How it Works</button>
+            </div>
         </div>
     </section>
     <!-- Content -->
@@ -87,7 +91,7 @@
                     <button>Find your house</button>
                 </div>
                 <div class="tour-right">
-                    <img src="" alt="">
+                    <img src="imgs/11.jpg" alt="">
                 </div>
             </div>
             <div class="tour">
@@ -97,7 +101,7 @@
                     <button>Find nearby houses</button>
                 </div>
                 <div class="tour-right">
-                    <img src="" alt="">
+                    <img src="imgs/12.jpg" alt="">
                 </div>
             </div>
             <div class="tour">
@@ -106,7 +110,7 @@
                     <p>You can navigate our houses from any platform: desktop, laptop, tablet or mobile!</p>
                 </div>
                 <div class="tour-right">
-                    <img src="" alt="">
+                    <img src="imgs/13.jpg" alt="">
                 </div>
             </div>
         </section>
