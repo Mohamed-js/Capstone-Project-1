@@ -443,4 +443,8 @@ footer {
         padding-right: 20px;
         justify-content: space-between;
     }
+
+    .footer-bottom p {
+        font-size: 10px;
+    }
 }
