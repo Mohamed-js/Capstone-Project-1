@@ -1,10 +1,9 @@
 # Capstone Project 1
 
-> Sneak Peak - Project 3 .. cloning Newsweek homepage.
+> Capstone project .. Finishing the first module.
 
 ![screenshot](./shot1.png)
 ![screenshot](./shot2.png)
-![screenshot](./shot3.png)
 
 Additional description about the project and its features.
 
@@ -12,13 +11,12 @@ Additional description about the project and its features.
 
 - HTML
 - CSS
-- BOOTSTRAP
 
-Built with CSS responsive techniques as "Flex, Grid, MediaQueries, Bootstrap"\
+Built with CSS responsive techniques as "Flex, Grid, MediaQueries".
 
 ## Usage
 
-git clone https://github.com/Mohamed-js/News-week.git
+git clone https://github.com/Mohamed-js/Capstone-Project-1.git
 
 cd News-week
 
@@ -26,7 +24,7 @@ open index.html
 
 ## Live Demo
 
-[Live Demo Link](https://Mohamed-js.github.io/News-week/)
+[Live Demo Link](https://mohamed-js.github.io/Capstone-Project-1/)
 
 ## Authors
 
@@ -35,12 +33,6 @@ open index.html
 - GitHub: [Mohammed Atef](https://github.com/Mohamed-js)
 - Twitter: [@MohammedAtef](https://twitter.com/Demovejetta)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamed-atef-032b6b1b0/)
-
-👤 **John hernandez**
-
-- GitHub: [johnhernandez-code](https://github.com/johnhernandez-code)
-- Twitter: [@JohnHernCode](https://twitter.com/JohnHernCode)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/john-hernandez-56a7821b8/)
 
 ## 🤝 Contributing
 
@@ -56,4 +48,4 @@ Thanks for the both parties involved in the development of this project.
 
 ## 📝 License
 
-This project is [MIT](https://github.com/Mohamed-js/News-week/blob/dev-branch/LICENSE) licensed.
+This project is [MIT](https://github.com/Mohamed-js/Capstone-Project-1/blob/dev-branch/LICENSE) licensed.
