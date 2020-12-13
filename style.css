@@ -300,6 +300,15 @@ footer {
 }
 
 @media only screen and (min-width:768px){
+    body {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+
     .navbar {
         flex-flow: row;
         align-items: center;
@@ -312,13 +321,24 @@ footer {
     }
 
     .steps {
-        display: flex;
-        flex-flow: row;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .tour {
+        height: 230px;
     }
 
     .tour-left {
         justify-content: center;
+    }
+
+    .footer-center h3 {
+        font-size: 16px;
+    }
+
+    .footer-center div p {
+        font-size: 14px;
     }
 
     .footer-top {
@@ -326,6 +346,7 @@ footer {
         justify-content: space-between;
         padding-top: 40px;
         margin-bottom: 20px;
+        font-size: 12px;
     }
 
     .footer-top :first-child {
@@ -353,7 +374,7 @@ footer {
         justify-content: space-around;
         align-items: flex-start;
         padding-top: 0px;
-        margin-bottom: 10px;
+        margin-bottom: 35px;
     }
 
     .footer-center div {
@@ -382,7 +403,44 @@ footer {
     .footer-bottom {
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-around;
         align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (min-width:1024px){
+    h1 {
+        font-size: 60px;
+        margin-bottom: 0px;
+    }
+
+    .text {
+        padding: 0px;
+        padding-bottom: 15px;
+    }
+
+    .text-search {
+        top: 120px;
+    }
+
+    .step h3 {
+        font-weight: 1000;
+    }
+
+    .link span {
+        display: inline-block;
+        font-weight: 600;
+    }
+
+    .tour {
+        height: 300px;
+    }
+
+    .footer-bottom {
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: space-between;
     }
 }
