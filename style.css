@@ -7,6 +7,8 @@ body {
     padding: 0;
     margin-top: -20px;
     font-size: 14px;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 ul {
@@ -31,11 +33,14 @@ nav {
 }
 
 .navbar {
-    background-color: hsl(18deg 100% 50%);
+    background-color: #e17e65;
     padding: 20px;
+    padding-top: 30px;
     color: whitesmoke;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo {
@@ -58,6 +63,7 @@ nav {
     height: 100vh;
     max-height: 700px;
     z-index: 10;
+    padding: 15px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imgs/cover3.jpg");
 }
 
@@ -91,7 +97,7 @@ label {
 }
 
 .search-input {
-    width: calc(100% - 85px);
+    width: calc(100% - 80px);
 
 }
 
@@ -99,11 +105,19 @@ label {
     padding: 8px;
 }
 
+.search-button {
+    background-color: #e17e65;
+    border: #e17e65;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
 .cover button {
     margin-top: 20px;
     padding: 8px;
-    border-radius: 10px;
+    border-radius: 8px;
     border: none;
+    font-weight: bold;
 }
 
 h2 {
@@ -122,6 +136,10 @@ h2 {
     max-width: 300px;
     margin: auto;
     margin-top: 40px;
+}
+
+.step i {
+    font-size: 25px;
 }
 
 .tours {
@@ -162,7 +180,7 @@ h2 {
 }
 
 .tour1 {
-    background-color:hsl(18deg 100% 50%);
+    background-color:#e17e65;
 }
 
 .tour1 button {
@@ -171,7 +189,7 @@ h2 {
 }
 
 .tour2 {
-    background-color:gray;
+    background-color:#98a5a5;
 }
 
 .tour2 button {
@@ -180,12 +198,16 @@ h2 {
 }
 
 .tour3 {
-    background-color:rgb(84, 84, 230);
+    background-color: #509cd8;
 }
 
 .tour3 img {
     border-radius: 0%;
     padding-top: 20px;
+}
+
+footer {
+    background-color: black;
 }
 
 .footer-top {
@@ -210,17 +232,17 @@ h2 {
 }
 
 .icom {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .icom i {
-    position: relative;
     color: white;
     font-size: 50px;
     border: white 1px solid;
     padding: 15px 22px;
     border-radius: 50%;
-    left: 40%;
 }
 
 .footer-center {
@@ -244,7 +266,7 @@ h2 {
 
 .footer-bottom {
     background-color: #1f1f1f;
-    color: whitesmoke;
+    color: rgb(160, 160, 160);
     text-align: center;
     padding: 15px;
 }
@@ -265,7 +287,7 @@ h2 {
     border: 1px solid rgb(139, 139, 139, .2);
 }
 
-.contact :last-child {
+.contact div :last-child {
     color: hsl(18deg 100% 50%);
 }
 
@@ -275,4 +297,92 @@ h2 {
 
 .footer-bottom i {
     padding: 4px;
+}
+
+@media only screen and (min-width:768px){
+    .navbar {
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 0px;
+    }
+
+    .link span {
+        display: none;
+    }
+
+    .steps {
+        display: flex;
+        flex-flow: row;
+        flex-wrap: wrap;
+    }
+
+    .tour-left {
+        justify-content: center;
+    }
+
+    .footer-top {
+        flex-flow: row;
+        justify-content: space-between;
+        padding-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .footer-top :first-child {
+        border-bottom: 1px solid rgb(139, 139, 139, .2);
+    }
+
+    .footer-top li {
+        width: 100%;
+    }
+
+    li.icom {
+        position: relative;
+        width: 180px;
+    }
+
+    .icom i {
+        position: absolute;
+        top: -20px;
+        background-color: black;
+    }
+
+    .footer-center {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .footer-center div {
+        font-size: 12px;
+        border-bottom: 0;
+        width: 33%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        height: 100px;
+        justify-content: space-between;
+    }
+
+    .footer-center h3 {
+        margin: 0;
+    }
+
+    .contact div p {
+        margin-top: 0;
+    }
+
+    .contact div :first-child {
+        margin-bottom: 0;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
