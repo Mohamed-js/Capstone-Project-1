@@ -649,6 +649,10 @@ main .text-search {
     padding: 15px;
 }
 
+.information p {
+    color: rgb(122, 122, 122, .8);
+}
+
 .information h3 {
     color: #ff4d00;
     text-align: left;
