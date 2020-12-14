@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <script src="https://kit.fontawesome.com/02aeb58d23.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>HOUSING FUTURE</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul class="navbar flex">
+            <li class="logo">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>HOUSING FUTURE</span>
+            </li>
+
+            <li class="links flex">
+                <div class="link">
+                    <i class="fas fa-search"></i>
+                    <span>Search</span>
+                </div>
+                <div class="link">
+                    <i class="fas fa-user"></i>
+                    <span>About</span>
+                </div>
+                <div class="link">
+                    <i class="fas fa-blog"></i>
+                    <span>Blog</span>
+                </div>
+                <div class="link">
+                    <i class="fas fa-bars"></i>
+                    <span>More...</span>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <!-- The Main Content -->
+    <main>
+        <div class="cover" style="margin-bottom: 0;">
+            <div class="text-search">
+                <h3 class="header2">
+                    Filter results by Place, Cost, Level and Area.
+                </h3>
+                <form class="filters">
+                    <div class="group">
+                        <label for="kind">Kind:</label>
+                        <select name="kind" id="kind">
+                            <option value=""></option>
+                            <option value="">Flat</option>
+                            <option value="">Villa</option>
+                        </select>
+                    </div>
+                    <div class="group">
+                        <label for="rooms">Rooms:</label>
+                        <select name="rooms" id="rooms">
+                            <option value=""></option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                        </select>
+                    </div>
+                    <div class="group">
+                        <label for="place">Place:</label>
+                        <select name="place" id="place">
+                            <option value=""></option>
+                            <option value="">Cairo</option>
+                            <option value="">Alexandria</option>
+                            <option value="">Behira</option>
+                            <option value="">Suez</option>
+                        </select>
+                    </div>
+                    <div class="group">
+                        <label for="cost">Cost lower than:</label>
+                        <select name="cost" id="cost">
+                            <option value=""></option>
+                            <option value="">500000 LE</option>
+                            <option value="">700000 LE</option>
+                            <option value="">900000 LE</option>
+                            <option value="">1000000 LE</option>
+                        </select>
+                    </div>
+                    <div class="group">
+                        <label for="level">Level:</label>
+                        <select name="level" id="level">
+                            <option value=""></option>
+                            <option value="">1st</option>
+                            <option value="">2nd</option>
+                            <option value="">3rd</option>
+                            <option value="">4th</option>
+                            <option value="">++5th</option>
+                        </select>
+                    </div>
+                    <div class="group">
+                        <label for="area">House area lower than:</label>
+                        <select name="area" id="area">
+                            <option value=""></option>
+                            <option value="">100 m2</option>
+                            <option value="">200 m2</option>
+                            <option value="">300 m2</option>
+                            <option value="">400 m2</option>
+                            <option value="">500 m2</option>
+                        </select>
+                    </div>
+                    <div class="group-btn">
+                        <input type="submit" name="search" id="search" class="search2" value="Search">
+                        <input type="button" name="clear" id="clear" class="clear" value="clear filter">                        
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <h3 class="header3">
+            Search results found 6 porperties:
+        </h3>
+
+        <div class="carts">
+            <div class="cart">
+                <h3>First Property</h3>
+                <div><img src="imgs/cover2.jpg" alt=""></div>
+                <div class="info">
+                    <h4>100,000 LE</h4>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="cart">
+                <h3>Second Property</h3>
+                <div><img src="imgs/0.jpg" alt=""></div>
+                <div class="info">
+                    <h4>100,000 LE</h4>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="cart">
+                <h3>First Property</h3>
+                <div><img src="imgs/1.jpg" alt=""></div>
+                <div class="info">
+                    <h4>100,000 LE</h4>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="cart">
+                <h3>First Property</h3>
+                <div><img src="imgs/2.jpg" alt=""></div>
+                <div class="info">
+                    <h4>100,000 LE</h4>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="cart">
+                <h3>First Property</h3>
+                <div><img src="imgs/3.jpg" alt=""></div>
+                <div class="info">
+                    <h4>100,000 LE</h4>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+            </div>
+            <div class="cart">
+                <h3>First Property</h3>
+                <div><img src="imgs/9.jpg" alt=""></div>
+                <div class="info">
+                    <h4>100,000 LE</h4>
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <ul class="footer-top flex">
+            <li class="flex">
+                <a href="#">HOME</a>
+                <a href="#">SERACH</a>
+                <a href="#">ABOUT US</a>
+                <a href="#">ADVERTISE</a>
+            </li>
+            <li class="icom"><i class="fas fa-map-marker-alt"></i></li>
+            <li class="flex" style="border-bottom: 1px solid rgb(139, 139, 139, .2);">
+                <a href="#">FACEBOOK</a>
+                <a href="#">TWITTER</a>
+                <a href="#">BLOG</a>
+                <a href="#">GOOGLE+</a>
+            </li> 
+        </ul>
+        <div class="footer-center">
+            <div>
+                <h3>SUBSCRIBE</h3>
+                <form action="" class="subscribe">
+                    <input type="text" placeholder="you@example.com">
+                    <input type="submit" name="submit" value="Send">
+                </form>
+            </div>
+            <div class="contact">
+                <h3>CONTACT</h3>
+                <div>
+                    <p>have a question?</p>
+                    <p>info@example.com</p>
+                </div>
+            </div>
+            <div class="about">
+                <h3>ABOUT</h3>
+                <p>HOUSING-FUTURE is an online platform that assists everyone find a suitable house for living. <span><a href="#">learn more...</a></span></p>
+            </div>
+        </div>
+        <ul class="footer-bottom">
+            <li><i class="fab fa-facebook"></i><i class="fab fa-twitter-square"></i><i class="fab fa-google-plus-g"></i><i class="fab fa-instagram-square"></i></li>
+            <li><p>HOUSING FUTURE 2020 - All rights reserved</p></li>
+        </ul>
+    </footer>
+</body>
+</html>    

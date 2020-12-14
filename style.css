@@ -56,6 +56,10 @@ nav {
     margin-bottom: 4px;
 }
 
+.link span {
+    display: none;
+}
+
 .cover {
     background: url(imgs/cover3.jpg) no-repeat;
     background-size: cover;
@@ -71,6 +75,9 @@ nav {
     position: relative;
     text-align: center;
     top: 180px;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .text-search .text {
@@ -98,7 +105,11 @@ label {
 
 .search-input {
     width: calc(100% - 80px);
+}
 
+.search-input::placeholder {
+    color: rgb(247, 14, 14);
+    font-weight: bolder;
 }
 
 .search input {
@@ -269,6 +280,7 @@ footer {
     color: rgb(160, 160, 160);
     text-align: center;
     padding: 15px;
+    font-size: 10px;
 }
 
 .subscribe input {
@@ -446,5 +458,169 @@ footer {
         padding-left: 20px;
         padding-right: 20px;
         justify-content: space-between;
+    }
+}
+
+/* Second Page Styles "Search" */
+
+main .cover {
+    background: none;
+    margin-bottom: 50px;
+}
+
+main .text-search {
+    padding: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #edeff0;
+}
+
+.header2 {
+    color: #9a9b9c;
+}
+
+.search2 {
+    background-color: #457db4;
+    border: 1px solid #2a659f;
+    color: whitesmoke;
+}
+
+.clear {
+    background-color: #e5ac5b;
+    border: 1px solid #e39e3f;
+    color: whitesmoke;
+}
+
+.filters {
+    display: flex;
+    flex-flow: column;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.group select {
+    padding: 5px;
+    margin-bottom: 14px;
+    width: 105px;
+}
+
+.group-btn input {
+    padding: 7px;
+    margin: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.carts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(290px,1fr) );
+    column-gap: 20px;
+    grid-auto-flow: row;
+    justify-items: center;
+    max-width: 1192px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.cart {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    width: 290px;
+    align-self: center;
+    background-color: #e17e65;
+    border-radius: 8px;
+}
+
+.cart h3 {
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0px;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.cart div img {
+    width: 100%;
+    height: 180px;
+    text-align: center;
+    object-fit: cover;
+}
+
+.info {
+    margin-left: 20px;
+}
+
+.cart h4 {
+    color: whitesmoke;
+    margin: 0;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.cart i {
+    color: #509bd8;
+    margin-bottom: 18px;
+    font-size: 13px;
+    margin-right: 2px;
+}
+
+.header3 {
+    color: #9a9b9c;
+    margin-top: 80px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+@media only screen and (min-width:1024px){
+    /* second page responsive */
+    main .cover {
+        height: 400px;
+    }
+
+    .header3 {
+        margin-top: 0px;
+    }
+
+    .filters {
+        display: flex;
+        flex-flow: row;
+        text-align: left;
+        padding-left: 40px;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .filters label {
+        font-size: 14px;
+        margin-left: 15px;
+        margin-bottom: 4px;
+    }
+
+    .group {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .group select {
+        margin-left: 14px;
+        width: auto;
+    }
+
+    .group-btn {
+        display: flex;
+        align-items: center;
+        margin-top: 12px;
+    }
+
+    .group-btn input {
+        margin: 0;
+        padding: 5px;
+        margin-right: 10px;
     }
 }
