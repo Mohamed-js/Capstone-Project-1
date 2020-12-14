@@ -11,6 +11,8 @@ Additional description about the project and its features.
 
 - HTML
 - CSS
+- Bootstrap
+- Fontawesome Icons
 
 Built with CSS responsive techniques as "Flex, Grid, MediaQueries".
 
