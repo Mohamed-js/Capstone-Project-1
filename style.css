@@ -534,6 +534,7 @@ main .text-search {
     align-self: center;
     background-color: #e17e65;
     border-radius: 8px;
+    box-shadow: 5px 5px 5px rgb(153, 153, 153);
 }
 
 .cart h3 {
@@ -623,5 +624,123 @@ main .text-search {
         margin: 0;
         padding: 5px;
         margin-right: 10px;
+    }
+}
+/* Third Page Property */
+.all {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.carousel {
+    position: relative;
+    max-width: 768px;
+    margin: auto;
+    padding-top: 140px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 10px rgb(153, 153, 153);
+}
+
+.information {
+    max-width: 768px;
+    margin: auto;
+    border: 1px solid rgb(179, 179, 179, .5);
+    box-shadow: 10px 10px 10px rgb(153, 153, 153);
+    margin-bottom: 40px;
+    padding: 15px;
+}
+
+.information h3 {
+    color: #ff4d00;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(180, 180, 180,.5);
+}
+
+.grid-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    column-gap: 20px;
+    grid-auto-flow: row;
+    justify-items: center;
+}
+
+.grid-info div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(180, 180, 180,.5);
+}
+
+.grid-info h4 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.grid-info span {
+    color: #ff4d00;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.map {
+    max-width: 768px;
+    margin: auto;
+}
+
+.map form {
+    display: flex;
+    flex-direction: column;
+}
+
+.map form label {
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.map input {
+    padding: 5px;
+    background-color: rgb(185, 185, 185, .5);
+    border: none;
+    border-bottom: 1px dashed grey;
+}
+
+.map button {
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.map button.first {
+    background-color: #ff4d00;
+    border: none;
+    color: whitesmoke;
+}
+
+.map button.last {
+    border: none;
+    background-color: white;
+    color: greenyellow;
+}
+
+.map h2 {
+    font-size: 30px;
+}
+
+.map img {
+    width: 100%;
+}
+
+
+@media only screen and (min-width:766px){
+    .carousel {
+        padding-top: 90px;
+    }
+
+    .grid-info {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
     }
 }
