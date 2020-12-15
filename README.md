@@ -57,4 +57,4 @@ Design author credits:  Mathew Njuguna | PatashuleKE | Behance designer.
 
 ## 📝 License
 
-This project is [MIT](https://github.com/Mohamed-js/Capstone-Project-1/blob/dev-branch/LICENSE) licensed.
+This project is [MIT](https://github.com/Mohamed-js/Capstone-Project-1/blob/dev-area/LICENSE.md) licensed.
