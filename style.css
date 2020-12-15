@@ -29,8 +29,8 @@ a {
   align-items: center;
 }
 
-.white-color{
-  color: whitesmoke
+.white-color {
+  color: whitesmoke;
 }
 
 .orange {
@@ -43,7 +43,7 @@ nav {
 }
 
 .li-footer {
-  border-bottom: 1px solid rgb(139, 139, 139, 0.2)
+  border-bottom: 1px solid rgb(139, 139, 139, 0.2);
 }
 
 .text-center {
@@ -659,7 +659,12 @@ main .text-search {
   border-bottom: 1px solid rgb(180, 180, 180, 0.5);
 }
 
-.first, .last {
+.first {
+  display: block;
+  width: 100%;
+}
+
+.last {
   display: block;
   width: 100%;
 }
@@ -745,7 +750,12 @@ main .text-search {
     grid-gap: 30px;
   }
 
-  .first, .last {
+  .last {
+    display: inline-block;
+    width: auto;
+  }
+
+  .first {
     display: inline-block;
     width: auto;
   }
