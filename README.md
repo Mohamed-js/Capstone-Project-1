@@ -2,10 +2,9 @@
 
 > Capstone project - Finishing the first module.
 This project is a simulation of schools' directory but with another content(a housing one).
-I have used industry tools in building this site that is composed of 3 different pages, the main page, the search results page, and the property information page.
+I have used industry tools in building this site that is composed of 3 different pages, the main page, the search results page, and the property information page. It is fully responsive to all devices that's why I used flex and grid.
 
 ![screenshot](./shot1.png)
-![screenshot](./shot2.png)
 
 Additional description about the project and its features.
 
