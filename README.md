@@ -53,7 +53,7 @@ Give a ⭐️ if you like this project!
 
 Thanks to both parties involved in the development of this project.
 
-Design author credits: PatashuleKE | Behance designer.
+Design author credits:  Mathew Njuguna | PatashuleKE | Behance designer.
 
 ## 📝 License
 
