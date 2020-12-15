@@ -27,7 +27,7 @@ a {
 }
 
 nav {
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   z-index: 20;
 }
@@ -74,7 +74,7 @@ nav {
 .text-search {
   position: relative;
   text-align: center;
-  top: 180px;
+  top: 120px;
   border-radius: 8px;
   max-width: 1200px;
   margin: auto;
@@ -105,11 +105,6 @@ label {
 
 .search-input {
   width: calc(100% - 80px);
-}
-
-.search-input::placeholder {
-  color: rgb(247, 14, 14);
-  font-weight: bolder;
 }
 
 .search input {
@@ -634,9 +629,9 @@ main .text-search {
   position: relative;
   max-width: 768px;
   margin: auto;
-  padding-top: 140px;
   margin-bottom: 30px;
   box-shadow: 10px 10px 10px rgb(153, 153, 153);
+  margin-top: 30px;
 }
 
 .information {
@@ -737,10 +732,6 @@ main .text-search {
 }
 
 @media only screen and (min-width: 766px) {
-  .carousel {
-    padding-top: 90px;
-  }
-
   .grid-info {
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
