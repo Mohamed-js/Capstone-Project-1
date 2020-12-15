@@ -1,43 +1,21 @@
-$ bundle exec bin/licensee detect https://github.com/rttrorg/rttr --remote --license=mit
-License:        Other
-Matched files:  LICENSE.txt, README.md
-LICENSE.txt:
-  Content hash:  e7321f5ede2334b289b2e880894cb6e063e7600e
-  Attribution:   Copyright (c) 2014 - 2018 Axel Menzel <info@rttr.org>
-  License:       Other
-  Closest licenses:
-    MIT similarity:      96.30%
-    NCSA similarity:     81.13%
-    BSL-1.0 similarity:  68.90%
-README.md:
-  Content hash:  74caacd8a722717ed0abb3018d392489c700d44b
-  Confidence:    90.00%
-  Matcher:       Licensee::Matchers::Reference
-  License:       MIT License
-  Closest licenses:
-    MIT similarity:      83.87%
-    NCSA similarity:     71.67%
-    BSL-1.0 similarity:  61.60%
-Comparing to MIT License:
-Input Length:      1070
-License length:    1019
-Similarity:      96.30%
-diff --git a/LICENSE b/LICENSE
-index ce3f035..3b42a29 100644
---- a/LICENSE
-+++ b/LICENSE
-@@ -1,14 +1,14 @@
-{+this file is part of rttr run time type reflection+} permission is hereby granted,
-free of charge, to any person obtaining a copy of this software and associated
-documentation files the "software" , to deal in the software without
-restriction, including without limitation the rights to use, copy, modify,
-merge, publish, distribute, sublicense, and/or sell copies of the software, and
-to permit persons to whom the software is furnished to do so, subject to the
-following conditions: the above copyright notice and this permission notice
-shall be included in all copies or substantial portions of the software. the
-software is provided "as is", without warranty of any kind, express or implied,
-including but not limited to the warranties of merchantability, fitness for a
-particular purpose and noninfringement. in no event shall the authors or
-copyright holders be liable for any claim, damages or other liability, whether
-in an action of contract, tort or otherwise, arising from, out of or in
-connection with the software or the use or other dealings in the software.
+MIT License
+
+Copyright (c) 2020 Mohamed Atef
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
