@@ -125,6 +125,9 @@ label {
   border: #e17e65;
   color: whitesmoke;
   font-weight: bold;
+  display: block;
+  width: calc(100% - 80px);
+  margin: auto;
 }
 
 .cover button {
@@ -330,6 +333,12 @@ footer {
     align-items: center;
     justify-content: space-between;
     padding-bottom: 0;
+  }
+
+  .search-button {
+    display: inline-block;
+    width: auto;
+    margin: auto;
   }
 
   .link span {
