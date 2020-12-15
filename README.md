@@ -1,6 +1,8 @@
 # Capstone Project 1
 
-> Capstone project .. Finishing the first module.
+> Capstone project - Finishing the first module.
+This project is a simulation of schools' directory but with another content(a housing one).
+I have used industry tools in building this site that is composed of 3 different pages, the main page, the search results page, and the property information page.
 
 ![screenshot](./shot1.png)
 ![screenshot](./shot2.png)
@@ -14,15 +16,19 @@ Additional description about the project and its features.
 - Bootstrap
 - Fontawesome Icons
 
-Built with CSS responsive techniques as "Flex, Grid, MediaQueries".
+Built with CSS responsive techniques as "Flex, Grid, and Media queries."
 
 ## Usage
 
-git clone https://github.com/Mohamed-js/Capstone-Project-1.git
+1- Open your terminal.
 
-cd News-week
+2- Paste "git clone https://github.com/Mohamed-js/Capstone-Project-1.git" in the terminal.
 
-open index.html
+3- cd CAPSTONE-PROJECT-1
+
+4- Open index.html
+
+5- Congratulations, you are here now!
 
 ## Live Demo
 
@@ -46,7 +52,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Thanks for the both parties involved in the development of this project.
+Thanks to both parties involved in the development of this project.
+
+Design author credits: PatashuleKE | Behance designer.
 
 ## 📝 License
 
