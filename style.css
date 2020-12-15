@@ -659,6 +659,11 @@ main .text-search {
   border-bottom: 1px solid rgb(180, 180, 180, 0.5);
 }
 
+.first, .last {
+  display: block;
+  width: 100%;
+}
+
 .grid-info {
   display: grid;
   grid-template-columns: 1fr;
@@ -738,5 +743,10 @@ main .text-search {
   .grid-info {
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
+  }
+
+  .first, .last {
+    display: inline-block;
+    width: auto;
   }
 }
