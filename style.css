@@ -32,6 +32,10 @@ nav {
   z-index: 20;
 }
 
+.li-footer {
+  border-bottom: 1px solid rgb(139, 139, 139, 0.2)
+}
+
 .text-center {
   text-align: center;
 }
@@ -72,6 +76,7 @@ nav {
   max-height: 700px;
   z-index: 10;
   padding: 15px;
+  margin-bottom: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url("imgs/cover3.jpg");
 }
 
