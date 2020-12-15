@@ -23,11 +23,21 @@ a {
 
 .flex {
   display: flex;
-  flex-flow: row;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.white-color{
+  color: whitesmoke
+}
+
+.orange {
+  background-color: #e17e65;
 }
 
 nav {
-  /* position: fixed; */
   width: 100%;
   z-index: 20;
 }
@@ -41,14 +51,11 @@ nav {
 }
 
 .navbar {
-  background-color: #e17e65;
   padding: 20px;
   padding-top: 30px;
-  color: whitesmoke;
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
 }
 
 .logo {
@@ -123,7 +130,6 @@ label {
 .search-button {
   background-color: #e17e65;
   border: #e17e65;
-  color: whitesmoke;
   font-weight: bold;
   display: block;
   width: calc(100% - 80px);
@@ -162,7 +168,6 @@ h2 {
 
 .tours {
   margin: auto;
-  color: whitesmoke;
 }
 
 .tour {
@@ -178,7 +183,6 @@ h2 {
 
 .tour-left {
   width: 70%;
-  display: flex;
   flex-flow: column;
   justify-content: space-around;
 }
@@ -195,10 +199,6 @@ h2 {
   padding-left: 5px;
   border-radius: 50%;
   padding-top: 15px;
-}
-
-.tour1 {
-  background-color: #e17e65;
 }
 
 .tour1 button {
@@ -241,7 +241,6 @@ footer {
 .footer-top li {
   border-top: 1px solid rgb(139, 139, 139, 0.2);
   padding: 8px;
-  display: flex;
   justify-content: space-between;
 }
 
@@ -250,9 +249,7 @@ footer {
 }
 
 .icom {
-  display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .icom i {
@@ -264,8 +261,8 @@ footer {
 }
 
 .footer-center {
+  flex-direction: column;
   background-color: black;
-  color: whitesmoke;
   text-align: center;
   padding: 15px;
   padding-bottom: 0;
@@ -288,6 +285,7 @@ footer {
   text-align: center;
   padding: 15px;
   font-size: 10px;
+  flex-direction: column;
 }
 
 .subscribe input {
@@ -301,7 +299,6 @@ footer {
 }
 
 .subscribe :last-child {
-  color: whitesmoke;
   background-color: #1f1f1f;
   border: 1px solid rgb(139, 139, 139, 0.2);
 }
@@ -330,7 +327,6 @@ footer {
 
   .navbar {
     flex-flow: row;
-    align-items: center;
     justify-content: space-between;
     padding-bottom: 0;
   }
@@ -399,12 +395,11 @@ footer {
   }
 
   .footer-center {
-    display: flex;
-    flex-flow: row;
     justify-content: space-around;
     align-items: flex-start;
     padding-top: 0;
     margin-bottom: 35px;
+    flex-direction: row;
   }
 
   .footer-center div {
@@ -427,7 +422,6 @@ footer {
   }
 
   .footer-bottom {
-    display: flex;
     flex-flow: row nowrap;
     align-items: center;
     padding-left: 20px;
@@ -492,22 +486,18 @@ main .text-search {
 .search2 {
   background-color: #457db4;
   border: 1px solid #2a659f;
-  color: whitesmoke;
 }
 
 .clear {
   background-color: #e5ac5b;
   border: 1px solid #e39e3f;
-  color: whitesmoke;
 }
 
 .filters {
-  display: flex;
   flex-flow: column;
 }
 
 .group {
-  display: flex;
   justify-content: space-between;
 }
 
@@ -538,11 +528,9 @@ main .text-search {
 
 .cart {
   margin-top: 50px;
-  display: flex;
   flex-flow: column;
   width: 290px;
   align-self: center;
-  background-color: #e17e65;
   border-radius: 8px;
   box-shadow: 5px 5px 5px rgb(153, 153, 153);
 }
@@ -600,7 +588,6 @@ main .text-search {
   }
 
   .filters {
-    display: flex;
     flex-flow: row;
     text-align: left;
     padding-left: 40px;
@@ -707,7 +694,6 @@ main .text-search {
 }
 
 .map form {
-  display: flex;
   flex-direction: column;
 }
 
@@ -732,7 +718,6 @@ main .text-search {
 .map button.first {
   background-color: #ff4d00;
   border: none;
-  color: whitesmoke;
 }
 
 .map button.last {
