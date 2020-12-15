@@ -75,6 +75,14 @@ nav {
   display: none;
 }
 
+.main-cover {
+  min-height: 600px;
+}
+
+.main-cover .text-search {
+  top: 20px;
+}
+
 .cover {
   background: url(imgs/cover3.jpg) no-repeat;
   background-size: cover;
