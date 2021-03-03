@@ -11,6 +11,16 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+.max-width {
+  max-width: 1700px;
+  margin: auto;
+}
+
+.max-width2 {
+  max-width: 1800px;
+  margin: auto;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
