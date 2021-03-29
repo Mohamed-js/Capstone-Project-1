@@ -6,6 +6,7 @@ I have used industry tools in building this site that is composed of 3 different
 
 ![screenshot](./shot1.png)
 
+
 Additional description about the project and its features.
 
 ## Built With
